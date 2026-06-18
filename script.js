@@ -64,11 +64,11 @@ function generate() {
 
     // Quality checkboxes (3 levels)
     const qualityCell = document.createElement("td");
-    qualityCell.className = "habit-day-cell";
+    qualityCell.className = "schedule-day-cell";
 
     ["😴", "🙂", "😕"].forEach(() => {
       const box = document.createElement("div");
-      box.className = "habit-checkbox";
+      box.className = "schedule-checkbox";
       box.style.marginRight = "6px";
       qualityCell.appendChild(box);
     });
